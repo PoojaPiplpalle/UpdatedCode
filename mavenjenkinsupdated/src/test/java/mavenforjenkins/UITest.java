@@ -11,12 +11,12 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class UITest
 {
-	WebDriver driver=null;
+
 @Test
 	public void startBrowser()
 	{
 		WebDriverManager.chromedriver().setup();
-		driver=new ChromeDriver();
+		WebDriver driver=new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.get("https://opensource-demo.orangehrmlive.com/");
 		Assert.assertTrue(driver.getTitle().contains("Orange"), "Title does not match");
