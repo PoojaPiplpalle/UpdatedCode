@@ -6,6 +6,9 @@
     <classes>
       <class name="mavenforjenkins.UITest"/>  
       </classes>
+<<<<<<< HEAD
       
+=======
+>>>>>>> 5e36da82b6417c38447a88b7e9f2368b1ae1729e
   </test> 
 </suite> 
