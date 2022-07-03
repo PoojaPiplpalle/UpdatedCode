@@ -5,8 +5,6 @@
     
     <classes>
       <class name="mavenforjenkins.UITest"/>  
-      
-      
-    </classes>
+      </classes>
   </test> 
 </suite> 
