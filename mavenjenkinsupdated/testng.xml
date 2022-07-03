@@ -2,10 +2,10 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Suite">
   <test thread-count="5" name="Test1">
+  
     <classes>
       <class name="mavenforjenkins.UITest"/>  
+      </classes>
       
-      
-    </classes>
   </test> 
 </suite> 
