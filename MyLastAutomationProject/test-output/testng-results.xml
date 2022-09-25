@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+    <line>
+      <![CDATA[url is opened]]>
+    </line>
+    <line>
+      <![CDATA[Browser is maximized]]>
+    </line>
+    <line>
+      <![CDATA[url is opened]]>
+    </line>
+    <line>
+      <![CDATA[Browser is maximized]]>
+    </line>
+    <line>
+      <![CDATA[url is opened]]>
+    </line>
+    <line>
+      <![CDATA[Browser is maximized]]>
+    </line>
+  </reporter-output>
+  <suite name="Failed suite [Default suite]" duration-ms="109584" started-at="2020-09-12T23:01:35 IST" finished-at="2020-09-12T23:03:25 IST">
+    <groups>
+    </groups>
+    <test name="Default test(failed)" duration-ms="109584" started-at="2020-09-12T23:01:35 IST" finished-at="2020-09-12T23:03:25 IST">
+      <class name="com.crm.test.HomePageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.test.HomePageTest@4e7dc304]" name="setUp" is-config="true" duration-ms="19497" started-at="2020-09-12T23:01:35 IST" finished-at="2020-09-12T23:01:55 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[url is opened]]>
+            </line>
+            <line>
+              <![CDATA[Browser is maximized]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="homePageTitleTest()[pri:1, instance:com.crm.test.HomePageTest@4e7dc304]" name="homePageTitleTest" duration-ms="8513" started-at="2020-09-12T23:01:55 IST" finished-at="2020-09-12T23:02:03 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homePageTitleTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.crm.test.HomePageTest@4e7dc304]" name="tearDown" is-config="true" duration-ms="709" started-at="2020-09-12T23:02:03 IST" finished-at="2020-09-12T23:02:04 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.test.HomePageTest@4e7dc304]" name="setUp" is-config="true" duration-ms="19181" started-at="2020-09-12T23:02:04 IST" finished-at="2020-09-12T23:02:23 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[url is opened]]>
+            </line>
+            <line>
+              <![CDATA[Browser is maximized]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="contactsPagemaleTest()[pri:2, instance:com.crm.test.HomePageTest@4e7dc304]" name="contactsPagemaleTest" duration-ms="25595" started-at="2020-09-12T23:02:23 IST" finished-at="2020-09-12T23:02:49 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contactsPagemaleTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.crm.test.HomePageTest@4e7dc304]" name="tearDown" is-config="true" duration-ms="706" started-at="2020-09-12T23:02:49 IST" finished-at="2020-09-12T23:02:49 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.test.HomePageTest@4e7dc304]" name="setUp" is-config="true" duration-ms="20450" started-at="2020-09-12T23:02:49 IST" finished-at="2020-09-12T23:03:10 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[url is opened]]>
+            </line>
+            <line>
+              <![CDATA[Browser is maximized]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="contactsPagefemaleTest()[pri:3, instance:com.crm.test.HomePageTest@4e7dc304]" name="contactsPagefemaleTest" duration-ms="14182" started-at="2020-09-12T23:03:10 IST" finished-at="2020-09-12T23:03:24 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contactsPagefemaleTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.crm.test.HomePageTest@4e7dc304]" name="tearDown" is-config="true" duration-ms="684" started-at="2020-09-12T23:03:24 IST" finished-at="2020-09-12T23:03:25 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.crm.test.HomePageTest -->
+    </test> <!-- Default test(failed) -->
+  </suite> <!-- Failed suite [Default suite] -->
+</testng-results>
