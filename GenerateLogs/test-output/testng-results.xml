@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="19175" started-at="2021-04-26T18:32:58 IST" finished-at="2021-04-26T18:33:17 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="19175" started-at="2021-04-26T18:32:58 IST" finished-at="2021-04-26T18:33:17 IST">
+      <class name="com.tests.loginTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.tests.loginTest@2353b3e6]" name="setup" is-config="true" duration-ms="18318" started-at="2021-04-26T18:32:58 IST" finished-at="2021-04-26T18:33:17 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="freecrmtesttitle()[pri:1, instance:com.tests.loginTest@2353b3e6]" name="freecrmtesttitle" duration-ms="39" started-at="2021-04-26T18:33:17 IST" finished-at="2021-04-26T18:33:17 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- freecrmtesttitle -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.tests.loginTest@2353b3e6]" name="tearDown" is-config="true" duration-ms="752" started-at="2021-04-26T18:33:17 IST" finished-at="2021-04-26T18:33:17 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.tests.loginTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
