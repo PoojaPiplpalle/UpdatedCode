@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="799" started-at="2020-06-25T22:03:39 IST" finished-at="2020-06-25T22:03:40 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="799" started-at="2020-06-25T22:03:39 IST" finished-at="2020-06-25T22:03:40 IST">
+      <class name="MapWithDataProvider">
+        <test-method status="PASS" signature="integrationTest(java.util.Map)[pri:0, instance:MapWithDataProvider@68bbe345]" name="integrationTest" duration-ms="9" started-at="2020-06-25T22:03:40 IST" data-provider="data" finished-at="2020-06-25T22:03:40 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{UserName=user1, DoB=dob1, Password=Test1}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- integrationTest -->
+        <test-method status="PASS" signature="integrationTest(java.util.Map)[pri:0, instance:MapWithDataProvider@68bbe345]" name="integrationTest" duration-ms="4" started-at="2020-06-25T22:03:40 IST" data-provider="data" finished-at="2020-06-25T22:03:40 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{UserName=user2, DoB=dob2, Password=test2}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- integrationTest -->
+        <test-method status="PASS" signature="integrationTest(java.util.Map)[pri:0, instance:MapWithDataProvider@68bbe345]" name="integrationTest" duration-ms="2" started-at="2020-06-25T22:03:40 IST" data-provider="data" finished-at="2020-06-25T22:03:40 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{UserName=user3, DoB=dob3, Password=test3}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- integrationTest -->
+      </class> <!-- MapWithDataProvider -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
