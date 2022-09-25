@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="1" total="2" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="30843" started-at="2020-06-20T23:42:06 IST" finished-at="2020-06-20T23:42:37 IST">
+    <groups>
+    </groups>
+    <test name="crm test chrome " duration-ms="30843" started-at="2020-06-20T23:42:06 IST" finished-at="2020-06-20T23:42:37 IST">
+      <class name="com.mytests.LoginTest">
+        <test-method status="PASS" signature="setUpTest(java.lang.String)[pri:0, instance:com.mytests.LoginTest@131276c2]" name="setUpTest" is-config="true" duration-ms="18308" started-at="2020-06-20T23:42:06 IST" finished-at="2020-06-20T23:42:25 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpTest -->
+        <test-method status="PASS" signature="doLoginTest()[pri:2, instance:com.mytests.LoginTest@131276c2]" name="doLoginTest" duration-ms="11268" started-at="2020-06-20T23:42:25 IST" finished-at="2020-06-20T23:42:36 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doLoginTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.mytests.LoginTest@131276c2]" name="tearDown" is-config="true" duration-ms="1223" started-at="2020-06-20T23:42:36 IST" finished-at="2020-06-20T23:42:37 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.mytests.LoginTest -->
+    </test> <!-- crm test chrome  -->
+  </suite> <!-- Suite -->
+</testng-results>

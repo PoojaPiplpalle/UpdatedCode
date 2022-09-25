@@ -1,0 +1,26 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite thread-count="2" name="Suite" parallel="tests" verbose="3" >
+  <test name="crm test chrome " parallel="methods" thread-count="5" >
+
+  <parameter name="Browser" value="chrome"></parameter>
+  
+  <classes>
+       <class name="com.mytests.LoginTest" />
+          
+       
+  </classes>
+  </test>
+  <!-- <test name="crm test firefox " parallel="methods" thread-count="5" >
+
+  <parameter name="Browser" value="ff"></parameter>
+  
+  <classes>
+       <class name="com.mytests.LoginTest" />
+          
+       
+  </classes>
+  </test> -->
+  
+  
+  </suite>
