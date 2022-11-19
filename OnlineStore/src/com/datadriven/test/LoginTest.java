@@ -38,7 +38,7 @@ public class LoginTest {
 		Object[][] data=TestUtil1.getTestData("Sheet1");
 		return data;
 	}
-	
+	 
 	@Test(dataProvider="getlog")//we need to add dataprovider to tell test annonatation that we need to fetch data from ecel.
 	public void LoginTest(String username,String password) throws InterruptedException {
 		driver.findElement(By.xpath("//a[@class='btn btn-primary btn-xs-2 btn-shadow btn-rect btn-icon btn-icon-left']")).click();
@@ -49,7 +49,7 @@ public class LoginTest {
 		
 	}
 	
-	@AfterMethod
+ 	@AfterMethod
 	public void tearDown() {
 		
 		driver.quit();

@@ -1,5 +1,6 @@
 package com.test;
 
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
 public class InvocationCountTest {
@@ -9,6 +10,7 @@ public void sum() {
 	int b=20;
 	int c=a+b;
 	System.out.println("Sum is:"+c);
+	
 	
 //want to execute same testcase 10 times so use invocationcount keyword.
 }

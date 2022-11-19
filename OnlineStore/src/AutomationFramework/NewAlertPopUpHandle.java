@@ -43,7 +43,7 @@ public class NewAlertPopUpHandle {
 		
 		System.out.println("Wrong msg");
 	}
-	alert.accept();//click on on button.
+	alert.accept();//click on ok button.
 	//alert.dismiss();//to click on cancel button.
 	driver.findElement(By.xpath("//input[@id='log in1']")).sendKeys("Pooja.rani@rediff.com");
 	driver.findElement(By.name("proceed")).click();

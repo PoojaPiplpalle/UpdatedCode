@@ -36,7 +36,7 @@ TestNG: Parameterization using XML & DataProvider in Selenium
 With the help of DataProvider annotation.
 //Parameters Annotation in TestNG is a method used to pass values to the test methods as arguments using .xml file. Users may be required to pass the values to the test methods during run time. The @Parameters annotation method can be used in any method having @Test, @Before, @After or @Factory annotation.
 TestNG: Parameterization using XML & DataProvider in Selenium*/
-	/* How to pass parameter from testing.xml to Test Cases
+	/* How to pass parameter from testing.xml to  Test Cases
 	• What is @Parameters annotation in TestNG
 	• How to configure testing.xml file with Parameters tag
 	• How to define Environment Variables in testng.xml

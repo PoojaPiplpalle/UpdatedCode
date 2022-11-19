@@ -15,7 +15,7 @@ public class DragAndDropConcept {
 		driver.manage().deleteAllCookies();
 		
 	//click,move and release are the manual steps to drag one objecct from source to target.
-driver.get("https://jqueryui.com/droppable/");
+driver.get("	");
 //So there is frame so ryt click and click on view source and search fro frame.
 driver.switchTo().frame(0);//we have written 0 becoz there was only one frame available.
 	//To perform Drag and Drop we need to create Action class object.

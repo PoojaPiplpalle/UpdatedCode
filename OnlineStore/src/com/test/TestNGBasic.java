@@ -1,5 +1,6 @@
 package com.test;
 
+import org.testng.Assert;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterSuite;
@@ -66,13 +67,11 @@ public class TestNGBasic {
 @Test//5th 
 public void googleTitleTest() {
 	System.out.println("Test----Google Title Test");
-	
 	}
 
 
 @Test 
 public void searchTest() {
-	
 	System.out.println("Test ----Search Test");
 	
 }
@@ -80,6 +79,7 @@ public void searchTest() {
 @AfterMethod//6th 
 public void logOut() {
 	System.out.println("AfterMethod-----Logout from App");
+
 }
 
 @AfterClass//7th 

@@ -12,7 +12,7 @@ public class LoginPage extends BasePage implements ElementofCRM{
 
 	public String getLoginPageTitle() {
 return getTitle();
-		}
+		} 
 	public void login(String un,String pwd) {
 		sendKeys(Username,un);
 		sendKeys(Password,pwd);

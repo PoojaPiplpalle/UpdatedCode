@@ -26,7 +26,7 @@ public class DoubleClickRightClick {
 		action.contextClick(driver.findElement(By.xpath("//span[text()='right click me']"))).perform();
 
 Thread.sleep(2000);
-driver.findElement(By.xpath("//span[text(s)='Copy']")).click();
+driver.findElement(By.xpath("//span[text()='Copy']")).click();
 
 System.out.println(driver.switchTo().alert().getText());
 driver.switchTo().alert().accept();
